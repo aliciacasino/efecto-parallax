@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: center;
+    color: beige;
+    background-image: url('fondo.png');
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color:burlywood;
+}
+a:hover {
+    color: beige;
+}
+h1, h2 {
+    font-family: 'Arvo', serif;
+    font-size: 46px;
+}
+h1 {
+    text-align: center;
+    padding: 60px 0;
+}
+h2 {
+    padding: 100px 0;
+}
+.container {
+    width: 100%;
+}
+.parallax {
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-width:1300px) {
+    .parallax {
+        height: 900px;
+    }
+}
+.londres {
+    background-image: url('londres.jpg');
+    /*Imagen de Albrecht Fietz en Pixabay*/
+}
+.paris {
+    background-image: url('paris.jpg');
+    /*Imagen de Pete Linforth en Pixabay */
+}
+.estambul {
+    background-image: url('estambul.jpg');
+}
+.barcelona {
+    background-image: url('barcelona.jpg');
+}
+.milan {
+    background-image: url('milan.jpg');
+    /*Imagen de Dimitris Vetsikas en Pixabay */
+}
+.amsterdam {
+    background-image: url('amsterdam.jpg');
+    /*Imagen de millionairemob en Pixabay */
+}
+.roma {
+    background-image: url('roma.jpg');
+    /*Imagen de Andrea Albanese en Pixabay */
+}
+.viena {
+    background-image: url('viena.jpg');
+    /*Imagen de Herbert Bieser en Pixabay */
+}
+.praga {
+    background-image: url('praga.jpg');
+    /*Imagen de ian kelsall en Pixabay */
+}
+.dublin {
+    background-image: url('dublin.jpg');
+    /*Imagen de Leonhard Niederwimmer en Pixabay */
+}
+footer {
+    padding: 200px 0 50px;
+    font-family: 'Arvo', serif;
+}
